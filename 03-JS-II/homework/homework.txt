@@ -1,0 +1,55 @@
+CICLO FOR
+
+For es una funcion bucle, esto quiere decir que se puede repetir varias veces el contenido de ella,
+te puede servir para multiplicar, sumar, crear palabras, hacer listas, etc el ciclo tiene 3 partes
+ para ajustar las repeticiones del mismo, el primero debe tener  una variable numero que es desde donde
+ va a partir el ciclo por ejemplo podemos empezar desde 0 o 1 como ejemplo,  esta se escribe asi
+var i = 0
+pero puede iniciar desde donde tu quieras desde el 1000 o el 300
+una vez teniendo nuestra parte de inicio vamos a separar la segunda parte con ;  para decirle cuantas veces
+vamos a repetir el bucle o ciclo, lo escribimos de la siguiente manera
+i <= 100
+esto quiere decir que el ciclo se repetira mientras la i sea menor de 100, ahora falta la tercera parte que
+nos va indicar en cuanto vamos a aumentar el valor i, la mayoria de las veces utilizaremos un ++ despues
+de la i que esto subira el valor de 1 en 1 sumandolo se vera asi
+i++
+Asi tenemos nuestro ciclo for construido, la primera parte recordando desde donde inciamos, segundo hasta
+que numero se termina el ciclo o se frena, tercero como vamosa ir aumentando el numero principal
+ya construyendo la primera parte de la funcion for se veria asi
+for(var i= 0;   i<=100   ;i++)
+    inicio       fin     avanze
+ahora mientras se cumpla el ciclo podemos ejecutar unas sentecias estas iran dentro de unos corchetes 
+despues de declarar como queremos que funcione el ciclo de esta manera
+for(var i= 0;   i<=100   ;i++)  <----- configuracion de repeticiones 
+{
+" aqui debe ir el codigo que quieres que se repita"
+
+}
+Algo escencial que hay que entender es que la variable i cambiara en cada repetecion o iteracion, 
+al inicio empieza en 0, despues vale 1, luego 2 y asi sucesivamente si iniciamos desde el 0 y 
+avanzamos de uno en uno, esto nos puede ayudar porque una misma variable puede tener 100 diferentes
+valores y ocuparlo segun lo que se requiera.
+
+&&
+este signo tiene como objetivo agregar otra condicion que debe de cumplir para que se realiza
+alguna accion tambien se puede entender como Y un ejemplo de esto seria asi
+(condicion 1 se cumple y condicion 2 se cumple) seria lo mismo que esto
+(condicion 1 se cumple && condicion 2 se cumple)  si ambas condiciones se cumple se realiza la accion
+
+||
+este signo es como para dar opciones multiples a una condicion, es como si fuera la letra 
+ejemplo de esto seria asi
+(condicion 1 se cumple O condicion 2 se cumple)asi se entenderia agregando los signos
+(condicion 1 se cumple || condicion 2 se cumple)si alguna de las 2 cumple se realiza la accion
+
+!
+este signo tiene como objetivo negar o hacer distincion de alguna variable se puede enteder de 2 formas
+por ejemplo una es que si utilizamos variables booleanas en la condicion buscariamos la contraria a ellas
+por ejemplo si quieres convertir algo falso a verdadero ocupariamos el signo antes 
+como ejemplo !falso esto seria igual a verdadero porque seria lo contrario, ahora !verdadero seria igual
+a falso es como para obtener lo contrario, cuando nuestro objetivo no es obtener un falso o un verdadero
+ocupariamos el signo para obtener algo distinto ejemplo de esto seria var!=10 esto quiere decir que buscariamos
+un numero distinto de 10 por eso va antes del = siempre que se ocupe un ! antes del igual estamos diciendo que
+queremos algo diferente de ese 
+valor.
+
